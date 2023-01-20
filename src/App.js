@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-
+import PersonCard from './componentes/PersonCard';
 function App() {
+  const [edad, setEdad] = useState(45);
+  const [edad_1, setEdad_1] = useState(88);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PersonCard firstName={"Jane"} lastName={"Doe"} age = { edad } hairColor={"Black"}/>
+      <button onClick={ () => setEdad(edad + 1)}>Birthday button for Jane Doe</button>
+      <PersonCard firstName={"John"} lastName={"Smith"} age = { edad_1 } hairColor={"Brown"}/>
+      <button onClick={ () => setEdad_1(edad_1 + 1)}>Birthday button for Jane Doe</button>
     </div>
   );
 }

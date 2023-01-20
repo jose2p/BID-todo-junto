@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jose2p/BID-todo-junto/static/css/main.66df26ce.css",
+    "main.js": "/jose2p/BID-todo-junto/static/js/main.56ff85e2.js",
+    "static/js/787.e88b3493.chunk.js": "/jose2p/BID-todo-junto/static/js/787.e88b3493.chunk.js",
+    "index.html": "/jose2p/BID-todo-junto/index.html",
+    "main.66df26ce.css.map": "/jose2p/BID-todo-junto/static/css/main.66df26ce.css.map",
+    "main.56ff85e2.js.map": "/jose2p/BID-todo-junto/static/js/main.56ff85e2.js.map",
+    "787.e88b3493.chunk.js.map": "/jose2p/BID-todo-junto/static/js/787.e88b3493.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66df26ce.css",
+    "static/js/main.56ff85e2.js"
+  ]
+}
