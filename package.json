@@ -1,8 +1,8 @@
 {
-  "name": "apoyarlo",
+  "name": "BID-todo-junto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jose2p/BID-todo-junto",
+  "homepage": "https://jose2p.github.io/BID-todo-junto/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
